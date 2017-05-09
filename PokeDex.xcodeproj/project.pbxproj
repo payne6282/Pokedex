@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D73C3FC91EC1979500FE0592 /* pokemon.csv in Resources */ = {isa = PBXBuildFile; fileRef = D73C3FC81EC1979500FE0592 /* pokemon.csv */; };
 		D7F372911EC18F8D004F9457 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F372901EC18F8D004F9457 /* AppDelegate.swift */; };
 		D7F372931EC18F8D004F9457 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F372921EC18F8D004F9457 /* ViewController.swift */; };
 		D7F372961EC18F8D004F9457 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7F372941EC18F8D004F9457 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D73C3FC81EC1979500FE0592 /* pokemon.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pokemon.csv; sourceTree = "<group>"; };
 		D7F3728D1EC18F8D004F9457 /* PokeDex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PokeDex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7F372901EC18F8D004F9457 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D7F372921EC18F8D004F9457 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 				D7F372921EC18F8D004F9457 /* ViewController.swift */,
 				D7F372941EC18F8D004F9457 /* Main.storyboard */,
 				D7F372971EC18F8D004F9457 /* Assets.xcassets */,
+				D73C3FC81EC1979500FE0592 /* pokemon.csv */,
 				D7F372991EC18F8D004F9457 /* LaunchScreen.storyboard */,
 				D7F3729C1EC18F8D004F9457 /* Info.plist */,
 			);
@@ -234,6 +237,7 @@
 			files = (
 				D7F3729B1EC18F8D004F9457 /* LaunchScreen.storyboard in Resources */,
 				D7F372981EC18F8D004F9457 /* Assets.xcassets in Resources */,
+				D73C3FC91EC1979500FE0592 /* pokemon.csv in Resources */,
 				D7F372961EC18F8D004F9457 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -505,6 +509,7 @@
 				D7F372B71EC18F8D004F9457 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D7F372B81EC18F8D004F9457 /* Build configuration list for PBXNativeTarget "PokeDexTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +518,7 @@
 				D7F372BA1EC18F8D004F9457 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D7F372BB1EC18F8D004F9457 /* Build configuration list for PBXNativeTarget "PokeDexUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +527,7 @@
 				D7F372BD1EC18F8D004F9457 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
